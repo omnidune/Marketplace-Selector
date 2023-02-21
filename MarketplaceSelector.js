@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Marketplace Slector
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Marketplace selector for sellercentral domain, keep the cookies seperated
 // @author       Raj
 // @match        https://sellercentral.amazon.com/*
