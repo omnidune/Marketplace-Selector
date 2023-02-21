@@ -13,6 +13,8 @@
 // @match        https://sellercentral.amazon.co.jp/*
 // @match        https://sellercentral.amazon.com.au/*
 // @icon         https://www.google.com/s2/favicons?domain=amazon.com
+// @downloadURL  https://raw.githubusercontent.com/omnidune/Marketplace-Selector/main/MarketplaceSelector.js
+// @updateURL    https://raw.githubusercontent.com/omnidune/Marketplace-Selector/main/MarketplaceSelector.js
 // @grant        none
 // ==/UserScript==
 
