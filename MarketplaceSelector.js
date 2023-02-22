@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Marketplace Slector
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Marketplace selector for sellercentral domain, keep the cookies seperated
 // @author       Raj
 // @match        https://sellercentral.amazon.com/*
@@ -58,7 +58,6 @@ var styles = `
 var existCondition1 = setInterval(function() {
   if (document.querySelector("#partner-switcher > button")) {
     clearInterval(existCondition1);
-    console.log("Found it! ////////////////////");
     var styleSheet1 = document.createElement("style");
     styleSheet1.innerText = styles;
     document.head.appendChild(styleSheet1);
