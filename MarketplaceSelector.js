@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Marketplace Slector
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  Marketplace selector for sellercentral domain, keep the cookies seperated
 // @author       Raj (rajbhatt578@gmail.com)
 // @match        https://sellercentral.amazon.com/*
@@ -126,7 +126,7 @@ var existCondition1 = setInterval(function() {
 
     var marketplaceName = "Marketplace Selector";
     if (window.location.href.includes("sellercentral.amazon.com.au")) {
-      marketplaceName += " - AustraliaUSA";
+      marketplaceName += " - Australia";
     } else if (window.location.href.includes("sellercentral.amazon.ca")) {
       marketplaceName += " - Canada";
     } else if (window.location.href.includes("sellercentral.amazon.com.mx")) {
